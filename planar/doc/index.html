@@ -1,0 +1,212 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Responsive Olimpia Fitness Center - Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		pre,code { font-family:"Consolas", Courier New, Courier, monospace; padding:15px; background:#f7f7f7; margin:0px 0px 18px; border:1px solid #e5e5e5; line-height:18px; color:#000 }
+code { padding:0px 3px; background-image:none; background:#f5f5f5; border:none }
+pre { white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	  <h3 class="center alt"> Documentation by &ldquo;Ansonika&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;PLANAR - Personal trainer HTML site template&rdquo;</h1>
+		
+		<div class="borderTop">
+		  <div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 08/10/20113<br>
+					By: Ansonika<br>
+				  Email: <a href="mailto:info@ansonika.com">info@ansonika.com</a></strong>
+			  </p>
+		  </div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme.</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#htmlStructure">HTML Structure</a></li>
+			<li><a href="#cssFiles">CSS Files, Structure and basic modifications</a></li>
+<li><a href="#php">PHP contact form, newsltetter form and plan a visit form</a></li>
+<li><a href="#psd">PHOTOSHOP files</a></li>
+			<li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#credits">Sources and Credit</a></li>
+		</ol>
+	  <hr>
+	  <h3 id="htmlStructure"><strong>A) HTML Structure</strong> - <a href="#toc">top</a></h3>
+	  <p> This theme has a fixed centered layout 1170px. It's based on Boostrap 3 framework grid. It's ULTRA RESPONSIVE!!<br />It' comes with a dark and light version. If you wont to change the colors, i've create a css file color.css  only as reference located inside the css folder in the light version....Here you will find the classes that could be changed in color.
+	  </p>
+<hr>
+
+		<h3 id="cssFiles"><strong>B) CSS Files Structure and basic modfication</strong> - <a href="#toc">top</a>	  </h3>
+	  <p>The css files are inside the css folder.</p>
+	  <ol>
+			<li><strong>bootstrap.css</strong>: The framework (not necessary to open/edit)</li>
+            <li><strong>bootstrap.min.css</strong>: The framework  minified (not necessary to open/edit)</li>
+            <li><strong>menu.css</strong>: All the styles about menu</li>
+            <li><strong> socialize-bookmarks.css</strong>: Socials Icons</li>
+            <li><strong> font-awesome.css</strong>: Icons</li>
+            <li><strong>animate.css</strong>: Animation css3 effects</li>
+            <li><strong> flexslider.css</strong>: All about the homepage slider</li>
+			<li><strong>style.css</strong>: all layout styles (mediaqueries included)</li>
+	  </ol>
+<p> To modify colors, typografy, button style ecc....find the realtive commen line in base.css. Below how the file is organized:</p>
+<p>STYLE.CSS STRUCTURE:<br>
+1. SITE STRUCTURE and TYPOGRAPHY<br>
+2.  PAGES AND CONTENT<br>
+3. COMMON<br>
+4. MEDIA QUERIES</p>
+<p><strong>Change the logo<br>
+  </strong>To change the logo, simply use your PNG24 file. Keep in mind that there is a smaller version for mobiles and :</p>
+<p style="background-color:#069; padding:10px; width:275px"><img src="assets/images/logo.png" width="240" height="35"></p>
+<p>Suggested size widht 240x height 35px</p><br>
+
+<p style="background-color:#069; padding:10px; width:42px"><img src="assets/images/logo-mobile.png" width="36" height="32"></p>
+<p>Suggested size widht 35px height 35px</p>
+<p><strong>Change the Font Family</strong> with <a href="http://www.google.com/fonts">Google web fonts</a><br>
+By default this theme use Open Sans, <br>
+&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'&gt;<br>but as  you can use every Google web font you like. Just take the line of code from the Google site (like the example above), open style.css and change the font in the body selector. Better is if you choose a font family with the same font weight style....so you don't need to modify any more font css style.</p>
+
+<p><strong>Add a slide to the slider</strong><br> 
+    Simply duplicate this part of code and change the caption and the jpg filename. You can optionally remove the caption. 
+      <pre>
+....
+&lt;li&gt;<br>   &lt;img src=&quot;img/slider/slide-3.jpg&quot; alt=&quot;&quot;&gt;<br>   &lt;p class=&quot;flex-caption&quot;&gt;Lose weight in a short time&lt;/p&gt;<br> &lt;/li&gt;<br>....
+</pre>
+
+<p><strong>Change the button colors, and main typography styles</strong><br> 
+      It's all placed at the top of styles.css under the section 1.SITE STRUCTURE and TYPOGRAPHY:
+      <pre>/** Typography **/
+........
+
+/** List **/<br>.....</p>
+
+/** Links **/<br>.....</p>
+
+/** Buttons **/<br>.....</p>
+
+etc...    </pre>
+      <strong>Change the Youtube video<br>
+      </strong>Simply change the code in bold ....tha is the ID of your video<strong><br>
+      <br>
+      </strong>
+      <pre>&lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;http://www.youtube.com/embed/<strong>NAuxkXR2huM</strong>&quot; allowfullscreen&gt;&lt;/iframe&gt;</pre>
+      <p><strong>Use the fancybox viewer/modal window for a large version of a picture<br>
+      </strong>Below an example code<strong>
+      </strong>      </p>
+      <pre>&lt;a href=&quot;img/gallery/1.jpg&quot; class=&quot;fancybox&quot; title=&quot;Your caption&quot;&gt;&lt;/a&gt;</pre>
+      
+      <p><strong>Spacing and margins<br>
+      </strong>If you need to change spacing or margins i've created these classe that can be useful (located in style.css)</p>
+      <pre>.add_top_30{<br>	margin-top:30px;<br>   }<br>    .add_top_15{<br>	margin-top:15px;<br> }<br> .add_bottom_30{<br>	margin-bottom:30px;<br> }<br>  .add_bottom_15{<br>	margin-bottom:15px;<br> }<br></pre>
+      
+      <p><strong>THE GRID</strong><br> 
+      Please refer to this <a href="http://getbootstrap.com/">documentation Boostrap</a></p>
+      <p><strong>Font AWESOME Icons<br>
+      </strong>
+     Font Awesome gives you scalable vector icons that can instantly be customized — size, color, drop shadow, and anything that can be done with the power of CSS. Font Awesome icons are vectors, which mean they're gorgeous on high-resolution displays.
+       <a href="http://fortawesome.github.io/Font-Awesome/icons/">Full list reference icons available</a>. See the example below on how to use in your pages:
+      <pre>&lt;i class="icon-camera-retro"&gt;&lt;/i&gt; icon-camera-retro
+
+&lt;p&gt;&lt;i class="icon-camera-retro icon-large"&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt; 
+&lt;p&gt;&lt;i class="icon-camera-retro icon-2x"&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt; 
+&lt;p&gt;&lt;i class="icon-camera-retro icon-3x"&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt; 
+&lt;p&gt;&lt;i class="icon-camera-retro icon-4x"&gt;&lt;/i&gt; icon-camera-retro&lt;/p&gt;</pre>
+      <hr>
+<br>
+      <h3 id="php"><strong>C) PHP files: Newsletter, Contact form and Suggest to a friend</strong> - <a href="#php">top</a></h3>
+      <p>All the files you need are located in asset folder. If you need to change the allert messages open assets/validate.js. Below an example taken from newsletter.php; all the files are well commented<strong>.<br>
+      </strong><br>
+        <img src="assets/images/mail.png" alt="" width="548" height="160" style="border:1px solid #ccc;">      </p>
+      </p>
+      <p><strong>Contact form and suggest to a friend<br>
+        </strong>It's the same logic and script of check newsletter. If you doesn't recieve the email please first check:<br>
+      1) Your spam folder<br>
+      2) If you hosting requires special settings<br>
+      3) If your email  has to be managed from the same hosting provider<br>
+      4) Set the permission of the asset folder on your host to 777 with your FTP client</p>
+      
+      
+      <hr>
+<h3 id="psd"><strong>D) Photoshop files</strong> - <a href="#toc">top</a></h3>
+		
+	  <p>Here a list of the psd and eps files provided:</p>
+	  <p><img src="assets/images/psd.jpg" alt="" width="397" height="207" style=" border: 1px solid #ccc"></p>
+	  <hr>
+      
+<hr>
+<h3 id="javascript"><strong>E) JavaScript</strong> - <a href="#toc">top</a></h3>
+		
+	  <p>This theme use These Javascript.</p>
+	  <p><img src="assets/images/js.jpg" style=" border: 1px solid #ccc"></p>
+	  <hr>
+		
+		<h3 id="credits"><strong>E) Sources and Credits</strong> - <a href="#toc">top</a></h3>
+		
+	  <p>I've used the following images, icons or other files as listed.
+		
+		
+	  <ul>
+        <li><a href="http://twitter.github.io/bootstrap/">Twitter Boostrap</a></li>
+        <li><a href="http://fortawesome.github.io/">Font Awesome</a></li>
+        <li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">Jquery easing</a></li>
+        <li><a href="https://github.com/scottjehl/Respond">Respond</a> (media queries for IE7-IE8)</li>
+        <li><a href="http://www.modernizr.com/">Moderniz</a></li>
+        <li><a href="http://fancyapps.com/fancybox/">Fancybox viewer</a></li>
+        <li><a href="http://jquery.com/">Jquery</a></li>
+        <li><a href="http://www.woothemes.com/flexslider/">Flex slider</a></li>
+            <li><a href="http://users.tpg.com.au/j_birch/plugins/superfish/">Superfish menu</a></li>
+            <li><a href="http://fitvidsjs.com/">Fit vids</a></li>
+            <li><a href="http://jamesallardice.github.io/Placeholders.js/">Place holder</a></li>
+             <li><a href="http://remysharp.com/2009/01/26/element-in-view-event-plugin/">Inview.js</a></li>
+	  </ul>
+		<p>Images are not included. You can buy them on Photodune or Flickr.</p>
+       
+<hr>
+<p><strong><br>
+    <img src="assets/images/avatar.jpg" width="80" height="80"><br>
+	  <br>
+    Once again, thank you so much for purchasing this theme. </strong><br> 
+		  
+<h3>Need support?</h3>
+For support contact me at <a href="mailto:info@ansonika.com">info@ansonika.com</a>.  You will receive an answer within 24-48 hours (working days)  GMT  +1.
+<ul>
+<li>I only provide support for fixing bugs or small issues on my items.</li>
+<li>I don't provide free support for additional custom modifications to the items.</li>
+<li>Please provide your site link, screenshots and other information about your issue.</li>
+</ul>
+
+<h3>Need customization or availability for freelance projects?</h3>
+Just send an email via profile page form; please don't forget to specify:
+<ul>
+<li>if you are a company, agency or private user</li>
+<li>all the information about your projects, needs, site urls, project sheet, etc..</li>
+<li>from which country you are</li>
+<li>if you have a deadline</li>
+<li>if you have basic knowledge of  HTML , CSS, JS,  PHP	</li>
+</ul>
+<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

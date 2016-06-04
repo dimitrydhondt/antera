@@ -1,0 +1,18 @@
+{
+  "title" : "ANTERA | Sherborne & Peutertijd in Dendermonde",
+  "author" : "Tessa Raedschelders",
+  "menu": [
+    {
+      "url" : "index.html",
+      "name" : "Wie ben ik ?"
+    },
+    {
+      "url" : "services.html",
+      "name" : "Aanbod"
+    },
+    {
+      "url" : "contact.html",
+      "name" : "Contact"
+    }
+  ]
+}
