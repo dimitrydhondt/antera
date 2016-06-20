@@ -8,9 +8,9 @@
 
 <!-- Basic Page Needs -->
 <meta charset="utf-8">
-<title>ANTERA | Sherborne &amp; Peutertijd in Dendermonde</title>
-<meta name="description" content="ANTERA | Sherborne &amp; Peutertijd in Dendermonde">
-<meta name="author" content="Tessa Raedschelders">
+<title>{{title}}</title>
+<meta name="description" content="{{title}}">
+<meta name="author" content="{{author}}">
 
 <!-- Favicons-->
 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
@@ -55,20 +55,8 @@
 </head>
 
 <body>
-   		<header>
-           <div class="container">
-            <div class="row">
-        	<div class="col-md-4 col-xs-3"><h1 id="logo"><a href="index.html" title="ANTERA | Sherborne &amp; Peutertijd in Dendermonde">ANTERA | Sherborne &amp; Peutertijd in Dendermonde</a></h1></div>
-            <nav class="col-md-8 col-xs-9">
-            	<ul id="main-nav" class="sf-menu" >
-                    <li><a href="index.html">Wie ben ik ?</a></li>
-                    <li><a href="services.html">Aanbod</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav><!-- End Nav -->
-         </div>
-        </div><!-- End container -->
-      </header> <!-- End header -->
+        {{> menu}}
+
         <div class="container">
             <h3 class="title">Sherborne</h3>
 
@@ -79,14 +67,14 @@
                         <strong><em>Sherborne Bewegingspedagogiek</em> of kortweg <em>Sherborne</em> is een bewegingsmethode. </strong>
                     </p>
                     <p class="lead">
-Wat Sherborne inhoudt, en wat het met jou en je (klein-)kind kan doen, is eigenlijk niet in woorden uit te leggen.
+Wat Sherborne inhoudt en wat het met jou en je (klein-)kind kan doen, is eigenlijk niet in woorden uit te leggen.
 Je moet het echt ervaren om er een volledig beeld van te krijgen...
 Sherborne bewegingspedagogie  werd vernoemd naar haar grondlegster, Veronica Sherborne.
 Veronica Sherborne (1922 - 1991) was een Engelse licentiate lichamelijk opvoeding, kinesitherapie en moeder van drie kinderen.
 Vanuit haar kennis als leerkracht/therapeute, de observatie van haar eigen kinderen en bewegingsanalyse ontwikkelde ze haar methode in een diversiteit van situaties en deelnemers.
 Zo gebruikte ze de methode zelf bij haar kinderen, in kleuter- en lager onderwijs en bij kinderen met psychische en/of motorische problemen.
 Ze werkte daarvoor onder meer samen met studenten lichamelijke opvoeding, leerkrachten, ouders, verzorgers en therapeuten.
-Ze was meer dan 25 jaar bezig met het optimaliseren van haar methode en intussen wordt haar deze wereldwijd toegepast.
+Ze was meer dan 25 jaar bezig met het optimaliseren van haar methode en intussen wordt deze wereldwijd toegepast.
 Ook bij ons wordt sherborne gebruikt in vele contexten: van scholen tot dagcentra, bij kinderen en volwassenen met of zonder beperking.
                     </p>
                 </div>
@@ -106,7 +94,9 @@ De twee basisdoelen zijn :
 </ul>
 <p>
 Zelfvertrouwen en vertrouwen (in de omgeving en de ander) staan hierbij centraal.
+<br/>
 Het groeien van zelfvertrouwen gebeurt doorheen de vele bewegingsspelen die gericht zijn op de ontwikkeling van het lichaamsbewustzijn.
+<br/>
 Het vertrouwen in de ander groeit vanuit de bekwaamheid om met anderen om te gaan en te communiceren.
 Dit wordt geoefend in de verschillende relatiespelen.
 De ervaring, het uitvoeren en het aan den lijve ondervinden, zijn een must om de methode te leren kennen.
@@ -119,51 +109,29 @@ Meer info op <a href="http://www.sherborne.be" target="_blank">www.sherborne.be<
                 <div class="col-md-6">
                     <h4 class="title-green">Hoe verloopt een sessie ?</h4>
 <p>
-We werken in aangename, kleine groepjes van 5 tot 10 deelnemers zodat er voor elke deelnemer voldoende aandacht is. .
+We werken in aangename, kleine groepjes van 5 tot 10 deelnemers zodat er voor elke deelnemer voldoende aandacht is.
 Uiteraard zijn de groepjes voor baby’s kleiner dan die voor kleuters. Ook de tijdsduur wisselt ifv de leeftijd. De lessen voor baby’s en peuters duren 45 minuten, voor kleuters is dit 60 minuten.
 We doen bewegingsspelletjes waarbij we soms per twee (begeleider + kind), maar ook soms individueel werken.  Zo ontdekken de kindjes spelenderwijs wat hun lichaam allemaal kan. We zullen actief zijn (rollen, kruipen, rennen, paardjerijden) maar bouwen ook rustige periodes in, waarbij er aandacht is voor relaxatie, massage, een moment om tot rust te komen.
 </p>
 <p>
 We hebben als (groot)ouder de reflex om voor ons kind te zorgen. In de sessies wordt er ook ruimte gemaakt om de rollen eens om te draaien. De kinderen zullen de begeleider dus ook helpen met bepaalde oefeningen en zorgaspecten (bvb massage) op hen nemen. Dit zorgt ervoor dat de band tussen (groot)ouder en kind ten volle geëxploreerd en verdiept kan worden.
 Tijdens de sessies is er steeds aandacht voor de mogelijkheden en de wensen van elk kind.  Het is belangrijk dat je als begeleider kijkt naar je kind en rekening houdt met wat hij/zij kan en wil.  Merk je als begeleider dat je kindje iets (nog) niet wil of kan? Of hebben de kindjes meer behoefte aan actie of rust? Dan passen we de oefeningen aan!
-Tijdens een lessenreeks vinden we het ook belangrijk om veel te herhalen. Dit wil niet zeggen dat alle lessen identiek zijn aan elkaar, maar er zullen wel veel oefeningen zijn die de kinderen zullen herkennen uit een vorige les. Kleine kinderen houden van herkenbaarheid en voorspelbaarheid. Herhaling geeft hen zekerheid die nodig is om te kunnen groeien.  Uiteraard worden er ook nieuwe oefeningen aangeboden, zodat de kinderen ook nieuwe ervaringen opdoen en zich uitgedaagd blijven voelen.
-Op het einde van de les hebben we een rustmomentje en bij de lessen van 45 minuten is het mogelijk om nog een kwartiertje na te praten en rustig met de kindjes de schoentjes en het jasje aan te doen.
+Tijdens een lessenreeks vinden we het ook belangrijk om veel te herhalen.
+Dit wil niet zeggen dat alle lessen identiek zijn aan elkaar, maar er zullen wel veel oefeningen zijn die de kinderen zullen herkennen uit een vorige les.
+Kleine kinderen houden van herkenbaarheid en voorspelbaarheid.
+Herhaling geeft hen zekerheid die nodig is om te kunnen groeien.
+Uiteraard worden er ook nieuwe oefeningen aangeboden, zodat de kinderen ook nieuwe ervaringen opdoen en zich uitgedaagd blijven voelen.
+Op het einde van de les hebben we een rustmomentje.
+Bij de lessen van 45 minuten is het mogelijk om nog een kwartiertje na te praten en rustig de schoentjes en het jasje aan te doen.
 </p>
                     <span class="break"></span>
                 </div>
 
             </div><!-- End row -->
-
-            <h3 class="title">Peutertijd</h3>
-            <div class="row">
-                <div class="col-md-6"><img src="img/peuter.jpg" alt="" class="img-circle style img-responsive"></div>
-                <div class="col-md-6">
-<p class="lead">
-Houdt je peuter van meer spelelementen ?
-Dan is een sessie <em>peutertijd</em> iets voor je kindje!
-Dit is een mix van spelletjes, dans, muziek en Sherborne.
-</p>
-                </div>
-            </div><!-- End row -->
         </div><!-- End container -->
 
-        <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <ul>
-                        <li><i class="icon-user"></i> Tessa Raedschelders</li>
-                        <li><i class="icon-phone"></i> Telefoon: 0485 52 93 47</li>
-                        <li><i class="icon-envelope"></i> E-mail: <a href="#">tessa.raedschelders@email.com</a></li>
-                    </ul>
-                    <ul class="social-bookmarks clearfix">
-                        <li class="facebook"><a href="#">facebook</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div id="copy">© 2016 - Alle rechten voorbehouden</div>
-        </footer><!-- End footer -->
+        {{> footer}}
+
  <div id="toTop">Back to Top</div>
 
 <!-- MENU JS -->

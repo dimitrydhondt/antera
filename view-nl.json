@@ -7,8 +7,12 @@
       "name" : "Wie ben ik ?"
     },
     {
-      "url" : "services.html",
-      "name" : "Aanbod"
+      "url" : "sherborne.html",
+      "name" : "Sherborne"
+    },
+    {
+      "url" : "peutertijd.html",
+      "name" : "Peutertijd"
     },
     {
       "url" : "contact.html",
