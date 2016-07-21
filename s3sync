@@ -1,5 +1,5 @@
 #!/bin/bash
 echo "Regenerate HTML"
 ./generate.sh
-s3cmd sync --acl-public --guess-mime-type public/ s3://sherborn-test/
-s3cmd ws-create --ws-index=index.html s3://sherborn-test/
+s3cmd sync --acl-public --guess-mime-type public/ s3://antera.be/
+s3cmd ws-create --ws-index=index.html s3://antera.be/
