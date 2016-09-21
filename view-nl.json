@@ -7,16 +7,24 @@
       "name" : "Wie ben ik ?"
     },
     {
-      "url" : "sherborne.html",
-      "name" : "Sherborne"
+      "url" : "aanbod.html",
+      "name" : "Aanbod"
     },
     {
-      "url" : "peutertijd.html",
-      "name" : "Peutertijd"
+      "url" : "nieuws.html",
+      "name" : "Nieuws en Agenda"
+    },
+    {
+      "url" : "media.html",
+      "name" : "In de media"
     },
     {
       "url" : "contact.html",
       "name" : "Contact"
+    },
+    {
+      "url" : "nieuwsbrief.html",
+      "name" : "Nieuwsbrief"
     }
   ]
 }
