@@ -3,16 +3,12 @@
   "author" : "Tessa Raedschelders",
   "menu": [
     {
-      "url" : "index.html",
+      "url" : "wiebenik.html",
       "name" : "Wie ben ik ?"
     },
     {
-      "url" : "aanbod.html",
+      "url" : "index.html",
       "name" : "Aanbod"
-    },
-    {
-      "url" : "nieuws.html",
-      "name" : "Nieuws en Agenda"
     },
     {
       "url" : "media.html",
